@@ -22,7 +22,7 @@
 -   go to google cloud [HERE](https://console.cloud.google.com)
 -   in the settings, hover over `APIs & Services`, and click on `OAuth consent screen`
 -   fill in the details for the OAuth consent screen
-    -   create an `External` user type,
+    -   create an `External` user type
     -   add the `Authorized domains`
     -   under `scopes`, click `ADD OR REMOVE SCOPES`, add the `../auth/userinfo.email`, `../auth/userinfo.profile`, and `openid` scopes
     -   under `Test users`, add your receiver email
